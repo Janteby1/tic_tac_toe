@@ -1,0 +1,55 @@
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+}
+
+h1:hover{
+	color: red;
+	font-style: bold;
+	font-size: 50px;
+}
+
+#board {
+	height: 300px;
+	width: 50%;
+	background-color: gray;
+	display: inline-block;
+	position: relative;
+}
+
+#spacer {
+	height: 300px;
+	width: 25%;
+	display: inline-block;
+	position: relative;
+}
+
+.row {
+	height: 50px;
+	width: 50%;
+	display: inline;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.box {
+	height: 70px;
+	width: 26%;
+	background-color: red;
+	margin: 2px;
+	margin-top: 20px;
+	display: inline-block;
+
+	text-align: center;
+	font-style: bold;
+	font-size: 25px;
+}
+
+.box:hover {
+	height: 80px;
+	width: 29%;
+	background-color: yellow;
+}
+
+
